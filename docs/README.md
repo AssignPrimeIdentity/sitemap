@@ -1,6 +1,3 @@
----
-layout: slickmap
----
 # Slickmap CSS
 
 **A Visual Sitemapping Tool for Web Developers**
