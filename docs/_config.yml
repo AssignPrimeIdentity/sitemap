@@ -68,8 +68,8 @@ remote_theme: eQ19/parser
 
 sass:
     sass_dir: modules/grammar/_sass
-data_dir: modules/grammar/doc/assets/_data
-collections_dir: modules/grammar/doc/assets
+data_dir: modules/grammar/docs/assets/_data
+collections_dir: modules/grammar/docs/assets
 
 # Plugins Setting
 # https://pages.github.com/versions/

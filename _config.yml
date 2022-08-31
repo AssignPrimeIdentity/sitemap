@@ -29,10 +29,6 @@ debug:
 readme_index:
   with_frontmatter: true
 
-data_dir: docs/assets/_data
-collections_dir: docs/assets
-excerpt_separator: <!--end_excerpt-->
-
 # Repository Settings
 # https://blog.webjeda.com/jekyll-redirect/
 # https://github.com/dotnet/docs/issues/20459#issuecomment-725295168
@@ -74,7 +70,6 @@ encoding: utf-8
 livereload: true
 limit_posts: 1000
 timezone: Asia/Jakarta
-remote_theme: eQ19/parser
 remote_theme: eQ19/parser
 
 sass:
@@ -175,6 +170,8 @@ kramdown:
   syntax_highlighter: pygments
   math_engine_opts configuration: mathjax
  
+excerpt_separator: <!--end_excerpt-->
+
 # Custom Headers
 # https://jekyllrb.com/docs/configuration/webrick/
 # https://en.wikipedia.org/wiki/Content_Security_Policy
