@@ -64,10 +64,12 @@ encoding: utf-8
 livereload: true
 limit_posts: 1000
 timezone: Asia/Jakarta
-
-data_dir: assets/_data
-collections_dir: assets
 remote_theme: eQ19/parser
+
+sass:
+    sass_dir: modules/grammar/_sass
+data_dir: modules/grammar/doc/assets/_data
+collections_dir: modules/grammar/doc/assets
 
 # Plugins Setting
 # https://pages.github.com/versions/
